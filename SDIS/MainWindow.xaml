@@ -1,0 +1,40 @@
+﻿<Window x:Class="SDIS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SDIS"
+        mc:Ignorable="d"
+        Title="Authentification"  WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize">
+    <Grid x:Name="fondPageConnexion">
+        <StackPanel x:Name="formulaireConnexion" Margin="120,100,120,100">
+            <StackPanel.Background>
+                <SolidColorBrush Color="#FF868181" Opacity="0.5"/>
+            </StackPanel.Background>
+            <Label x:Name="labelAuthentification" Content="Service authentification" HorizontalContentAlignment="Center" Background="#FFFF0101" Foreground="White" FontSize="40" FontWeight="Bold"/>
+
+            <Label x:Name="LoginSapeur" HorizontalContentAlignment="Center" Content="Identifiant" Margin="0,50,0,0" VerticalAlignment="Center" FontWeight="Bold" Target="{Binding ElementName=tbLogin}" FontSize="30"/>
+            <TextBox x:Name="tbLogin" TextWrapping="Wrap"  Margin="90,0,90,0" FontSize="25"/>
+
+            <Label x:Name="MdpSapeur" HorizontalContentAlignment="Center" Content="Mot de Passe" Margin="10,38,0,0" FontWeight="Bold" Target="{Binding ElementName=tbMDP}" FontSize="30"/>
+            <PasswordBox x:Name="pbmdp" Height="35"  FontSize="25" Margin="90,0,90,0" />
+
+            <Button x:Name="butSeConnecter" Content="Se connecter" Margin="150,60,150,60" Background="#FFFF0101" Foreground="White" Click="butSeConnecter_Click" FontSize="30"/>
+
+
+            <StackPanel.Resources>
+                <Style TargetType="TextBox" >
+                    <Style.Triggers>
+                        <Trigger Property="Validation.HasError" Value="true">
+                            <Setter Property="ToolTip"
+Value="{Binding
+RelativeSource={x:Static RelativeSource.Self},
+Path=(Validation.Errors)[0].ErrorContent}"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Resources>
+
+        </StackPanel>
+    </Grid>
+</Window>

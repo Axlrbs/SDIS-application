@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SDIS.categorie">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAEAAAAAAAgAAAAAAABAAAAAEAAAAA=</HashCode>
+      <FileName>categorie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.Commande">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMIAAACAEAAAABAAAAIAAAgCAAAAEAAAAAQAAABCAA=</HashCode>
+      <FileName>Commande.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.DetailCommance">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAIAAAACAAAAAAAAAAgAAAAIAAABAAA=</HashCode>
+      <FileName>DetailCommance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.habilitation">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAABAEAAgAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>habilitation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.Materiel">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gkIAAAACAgAgAgEgoAABIAAoIgAAAAAEAQAABAFAAAA=</HashCode>
+      <FileName>materiel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.Sapeur">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAACAQgAEAEAAAAAoAAAAAAAAAIAAAAACAAA=</HashCode>
+      <FileName>Sapeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.Transport">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAAgAAAAAAAAAAAIACAAAAA=</HashCode>
+      <FileName>Transport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDIS.Type">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAAAAAAEgAAAAAAgAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
